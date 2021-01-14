@@ -1,5 +1,12 @@
 package empleadoED_48585234B;
 
+/**
+ * Ejercicio práctico examen EVAL 1 ED
+ *
+ * @author RUBÉN ROMERO REBOLLO
+ * @version 1.0
+ */
+
 public class EmpleadoED_48585234B {
 
     static final double FACTOR_HORA_EXTRA = 1.2;

@@ -6,13 +6,18 @@ package empleadoED_48585234B;
  * @author RUBÉN ROMERO REBOLLO
  * @version 1.0
  */
-
 public class EmpleadoED_48585234B {
 
     static final double FACTOR_HORA_EXTRA = 1.2;
     private String nombreCompleto, dni;
     private double salarioBasePorHora = 10.56;
 
+    /**
+     * Constructor con tres parámetros
+     *
+     * @param nombreCompleto nombre completo en mayúsculas
+     * @param dni documento nacional de identidad con letra y sin espacios
+     */
     public EmpleadoED_48585234B(String nombreCompleto, String dni) {
         this.nombreCompleto = nombreCompleto;
         this.dni = dni;
